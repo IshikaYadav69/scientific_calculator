@@ -39,3 +39,7 @@ int main() {
             case 9:
 		    if (num1 > 0)
                     result = log(num1);
+		    else {
+                    printf("Error: Logarithm of non-positive number\n");
+                    return 1;
+                }
