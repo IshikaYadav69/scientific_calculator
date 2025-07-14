@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int choice;
+    double num1, num2, result;
+
+    printf("Scientific Calculator\n");
+    printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n");
+    printf("5. Sine\n6. Cosine\n7. Tangent\n8. Exponential\n");
+    printf("9. Logarithm\n10. Square Root\n");
+    printf("Enter your choice: ");
+    scanf("%d", &choice);
