@@ -44,3 +44,11 @@ int main() {
                     return 1;
                 }
                 break;
+		case 10:
+                if (num1 >= 0)
+                    result = sqrt(num1);
+                else {
+                    printf("Error: Square root of negative number\n");
+                    return 1;
+                }
+                break;
