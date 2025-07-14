@@ -25,3 +25,6 @@ int main() {
                     printf("Error: Division by zero\n");
                     return 1;
                 }
+		break;
+        }
+        printf("Result: %.2lf\n", result);
