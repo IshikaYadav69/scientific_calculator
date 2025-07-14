@@ -15,3 +15,6 @@ int main() {
         printf("Enter two numbers: ");
         scanf("%lf %lf", &num1, &num2);
 	switch (choice) {
+		case 1: result = num1 + num2; break;
+            case 2: result = num1 - num2; break;
+            case 3: result = num1 * num2; break;
