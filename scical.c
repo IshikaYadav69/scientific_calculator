@@ -14,3 +14,4 @@ int main() {
     if (choice >= 1 && choice <= 4) {
         printf("Enter two numbers: ");
         scanf("%lf %lf", &num1, &num2);
+	switch (choice) {
