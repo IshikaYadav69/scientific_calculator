@@ -28,3 +28,6 @@ int main() {
 		break;
         }
         printf("Result: %.2lf\n", result);
+	} else if (choice >= 5 && choice <= 10) {
+        printf("Enter a number: ");
+        scanf("%lf", &num1);
