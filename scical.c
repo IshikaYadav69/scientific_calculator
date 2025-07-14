@@ -11,3 +11,6 @@ int main() {
     printf("9. Logarithm\n10. Square Root\n");
     printf("Enter your choice: ");
     scanf("%d", &choice);
+    if (choice >= 1 && choice <= 4) {
+        printf("Enter two numbers: ");
+        scanf("%lf %lf", &num1, &num2);
