@@ -31,3 +31,9 @@ int main() {
 	} else if (choice >= 5 && choice <= 10) {
         printf("Enter a number: ");
         scanf("%lf", &num1);
+	switch (choice) {
+            case 5: result = sin(num1); break;
+            case 6: result = cos(num1); break;
+            case 7: result = tan(num1); break;
+            case 8: result = exp(num1); break;
+            case 9:
