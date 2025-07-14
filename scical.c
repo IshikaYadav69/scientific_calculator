@@ -37,3 +37,10 @@ int main() {
             case 7: result = tan(num1); break;
             case 8: result = exp(num1); break;
             case 9:
+		    if (num1 > 0)
+                    result = log(num1);
+                else {
+                    printf("Error: Logarithm of non-positive number\n");
+                    return 1;
+                }
+                break;
