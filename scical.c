@@ -21,3 +21,7 @@ int main() {
 		    case 4:
                 if (num2 != 0)
                     result = num1 / num2;
+		else {
+                    printf("Error: Division by zero\n");
+                    return 1;
+                }
