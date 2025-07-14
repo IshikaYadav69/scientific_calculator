@@ -52,3 +52,11 @@ int main() {
                     return 1;
                 }
                 break;
+		}
+        printf("Result: %.2lf\n", result);
+    } else {
+        printf("Invalid choice\n");
+    }
+
+    return 0;
+}
